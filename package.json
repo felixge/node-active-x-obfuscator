@@ -10,11 +10,13 @@
   },
   "main": "./index",
   "scripts": {
-    "test": "make test"
+    "test": "node test.js"
   },
   "engines": {
     "node": "*"
   },
-  "dependencies": {},
+  "dependencies": {
+    "zeparser": "0.0.5"
+  },
   "devDependencies": {}
 }
