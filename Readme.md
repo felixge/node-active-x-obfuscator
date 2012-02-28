@@ -1,11 +1,11 @@
 # active-x-obfuscator
 
-A simple module to (safely) obfuscate all occurences of the string 'ActiveX'
-inside some JavaScript code.
+A module to (safely) obfuscate all occurrences of the string 'ActiveX' inside
+any JavaScript code.
 
 ## Why?
 
-Some coporate firewalls /proxys such as Blue Coat block JavaScript files to be
+Some corporate firewalls /proxies such as Blue Coat block JavaScript files to be
 downloaded if they contain the word `'ActiveX'`. That of course is very annoying
 for libraries such as [socket.io][] that need to use `ActiveXObject` for
 supporting IE8 and older.
