@@ -23,7 +23,7 @@ var activeXObfuscator = require('active-x-obfuscator');
 var code = 'foo(new ActiveXObject());';
 
 var obfuscated = activeXObfuscator(code);
-// -> foo(...)
+// -> foo(new window[(['Active'].concat('Object').join('X'))])
 ```
 
 ## License
